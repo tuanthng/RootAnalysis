@@ -1,0 +1,19 @@
+#deep flow, Note: no empty lines
+version 0.1
+#source options: USB, AVI, IMAGES (only support IMAGES at this version)
+IMAGES
+#only if source is AVI OR IMAGES, directory
+F:\MyProjects\Research\Matlab\data\151110 Col no sorbitol timelapse I flipped plate straight\Modified
+#imageTypeLoad
+.png
+#write debug information, saveDir = 
+F:\MyProjects\Research\Matlab\data\151110 Col no sorbitol timelapse I flipped plate straight\ver1\Flow
+#prefixInput 
+Image_
+#specify start and end numbers
+1
+144
+#prefixOutput 
+root_SEG_
+#readType = FOLDER or SEQUENCE, only support SEQUENCE at this version 
+SEQUENCE

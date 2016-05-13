@@ -1,0 +1,19 @@
+#deep flow, Note: no empty lines
+version 0.1
+#source options: USB, AVI, IMAGES (only support IMAGES at this version)
+IMAGES
+#only if source is AVI OR IMAGES, directory
+E:\Users\txn\Documents\MyProject\Data\151117 Col ht timelapse I flipped plate bent right way\Modified
+#imageTypeLoad
+.png
+#write debug information, saveDir = 
+E:\Users\txn\Documents\MyProject\Data\151117 Col ht timelapse I flipped plate bent right way\ver1\Flow
+#prefixInput 
+Image_
+#specify start and end numbers
+1
+210
+#prefixOutput 
+root_SEG_
+#readType = FOLDER or SEQUENCE, only support SEQUENCE at this version 
+SEQUENCE

@@ -1,0 +1,23 @@
+#optical_flow_params, Note: no empty lines
+#float alpha;             // smoothness weight
+6.0
+#float beta;              // matching weight
+390.0
+#float gamma;             // gradient constancy assumption weight
+5.0
+#float delta;             // color constancy assumption weight
+0.5
+#float sigma;             // presmoothing of the images
+0.6
+#float bk;                // downweight parameter of the matching weight
+1.0
+#float eta;               // downscale factor
+0.95
+#int min_size;            // minimum size of the first level
+25
+#int n_inner_iteration;   // number of inner fixed point iterations
+5
+#int n_solver_iteration;  // number of solver iterations 
+25
+#float sor_omega;         // omega parameter of sor method
+1.60

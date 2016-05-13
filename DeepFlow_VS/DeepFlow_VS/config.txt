@@ -1,0 +1,19 @@
+#deep flow, Note: no empty lines
+version 0.1
+#source options: USB, AVI, IMAGES (only support IMAGES at this version)
+IMAGES
+#only if source is AVI OR IMAGES, directory
+D:\MyProjects\Research\MathLab\data\130618 Axiostar ht Col-0 bent to left_Modified
+#imageTypeLoad
+.png
+#write debug information, saveDir = 
+D:\MyProjects\Research\MathLab\data\130618 Axiostar ht Col-0 bent to left_Modified\result
+#prefixInput 
+Image_
+#specify start and end numbers
+61
+65
+#prefixOutput 
+root_SEG_
+#readType = FOLDER or SEQUENCE, only support SEQUENCE at this version 
+SEQUENCE
